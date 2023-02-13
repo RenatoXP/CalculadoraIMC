@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+
+
+    <TextView
+        android:textSize="20sp"
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="10dp"
+        android:text="@string/seu_imc"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        android:id="@+id/textview_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp"
+        android:textAlignment="center"
+        android:textSize="38sp"
+        tools:text="27.104"/>
+
+
+    <TextView
+
+        android:textStyle="bold"
+        android:id="@+id/textview_classificacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:text="@string/classifica_o_normal" />
+
+
+
+    <ImageView
+
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/tabelaimc"
+        android:contentDescription="TODO"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <ImageView
+
+        android:layout_width="150dp"
+        android:layout_height="110dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/devspacelogo"
+        tools:ignore="ContentDescription" />
+
+
+</LinearLayout>

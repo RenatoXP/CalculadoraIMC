@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IMC</string>
+    <string name="message">IMC</string>
+    <string name="message_classificacao">Classificação: %1$s</string>
+    <string name="por_favor_digite_seu_peso">Por favor, Digite seu peso</string>
+    <string name="digite_sua_altura">Digite sua altura</string>
+    <string name="consultar">Consultar</string>
+    <string name="classifica_o_normal">Classificação: Normal</string>
+    <string name="seu_imc">Seu IMC é:</string>
+    <string name="sub_titulo">Você está com peso saudável? Para descobrir, use nossa ferramenta para calcular seu Índice de Massa Corporal (IMC) agora e saber o risco de doenças relacionadas à obesidade..</string>
+    <string name="ex_1_74">ex.: 1.74</string>
+    <string name="calcule">calcule</string>
+    <string name="ex_81kg">ex.: 81kg</string>
+    <string name="digite_sua_altura_text">Digite sua altura:</string>
+    <string name="calculadora_do_imc">Calculadora do IMC</string>
+    <string name="todo">TODO</string>
+</resources>
